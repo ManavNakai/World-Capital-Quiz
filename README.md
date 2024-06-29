@@ -56,10 +56,10 @@ To get a local copy up and running, follow these simple steps:
    - Open PG Admin and create a new database named `world`.
   
    4.2. **Create a table**:
-   - Create a table named `countries` with the following structure:
+   - Create a table named `capitals` with the following structure:
      
      ```
-     CREATE TABLE countries (
+     CREATE TABLE capitals (
        id SERIAL PRIMARY KEY,
        country VARCHAR(255) NOT NULL,
        capital VARCHAR(255) NOT NULL
@@ -67,7 +67,7 @@ To get a local copy up and running, follow these simple steps:
      ```
      
    4.3. **Import the `countries.csv` file**:
-   - Import the `countries.csv` file into the `countries` table. In PG Admin, go to the `countries` table, right-click and select `Import/Export`, then follow the instructions to import the CSV file.
+   - Import the `countries.csv` file into the `capitals` table. In PG Admin, go to the `capitals` table, right-click and select `Import/Export`, then follow the instructions to import the CSV file.
   
 5. Create a `.env` file in the project root and add your PostgreSQL database connection details:
    ```plaintext
