@@ -50,7 +50,7 @@ To get a local copy up and running, follow these simple steps:
    ```sh
    npm install
    ```
-4. Set up the PostgreSQL database locally using PG Admin and the `countries.csv` file provided with the project files:
+4. Set up the PostgreSQL database locally using PG Admin and the `capitals.csv` file provided with the project files:
    
    4.1. **Open PG Admin and create a new database**:
    - Open PG Admin and create a new database named `world`.
@@ -66,8 +66,8 @@ To get a local copy up and running, follow these simple steps:
      );
      ```
      
-   4.3. **Import the `countries.csv` file**:
-   - Import the `countries.csv` file into the `capitals` table. In PG Admin, go to the `capitals` table, right-click and select `Import/Export`, then follow the instructions to import the CSV file.
+   4.3. **Import the `capitals.csv` file**:
+   - Import the `capitals.csv` file into the `capitals` table. In PG Admin, go to the `capitals` table, right-click and select `Import/Export`, then follow the instructions to import the CSV file.
   
 5. Create a `.env` file in the project root and add your PostgreSQL database connection details:
    ```plaintext
